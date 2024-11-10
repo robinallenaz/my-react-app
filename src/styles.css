@@ -1,0 +1,73 @@
+html {
+    border-left: 5px solid lightgray;
+  }
+
+  body {
+    font-family: sans-serif;
+    min-height: 100vh;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  header, main, footer {
+    padding: 1rem 2rem;
+  }
+
+  h1 {
+    color: tomato;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  article {
+    margin-bottom: 4rem;
+    border-bottom: 1px solid lightgray;
+  padding-bottom: 2rem;
+  }
+
+/*Making the title of each blog post larger*/
+  article h2 {
+    font-size: 1.5rem;
+  }
+  
+/*Styling the first letter of the first paragraph for each blog post*/
+
+article p:first-of-type::first-letter {
+    color: lightgray;
+    font-size: 2rem;
+    float: left;
+    margin-right: 0.5rem;
+  }
+/*Styling the 'continues' anchor tag*/
+article a {
+    /*I know people don't use 'float' anymore, but I decided to use it here*/
+    float: right;
+    font-weight: bold;
+    color: tomato;
+  }
+/*Styling site navigation in header and footer*/
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    margin-right: 20px;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footer-nav a {
+    color: tomato;
+  }
+
+  .copyright {
+    color: #959595;
+  }

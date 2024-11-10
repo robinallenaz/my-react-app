@@ -3,6 +3,7 @@ import Header from './Header';
 import Nav from './Nav';
 import Article from './Article';
 import Footer from './Footer';
+import './styles.css';
 
 function App() {
   return (
