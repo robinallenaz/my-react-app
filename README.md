@@ -1,6 +1,6 @@
 # [Netlify Live Link](Netlify link here)
-# [GitHub Pages Live Link](GitHub Pages link of HTML version)
-# [GitHub Link of HTML Version](GitHub link for HTML version)
+# [GitHub Pages Live Link]([https://robinallenaz.github.io/HTML-Fashion-Blog/])
+# [GitHub Link of HTML Version]([https://github.com/robinallenaz/HTML-Fashion-Blog])
 
 ### `npm run build`
 
